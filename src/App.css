@@ -19,6 +19,14 @@
   place-items: center;
 }
 
+.orange-text {
+  color: #ffb400;
+}
+
+.white-text {
+  color: white;
+}
+
 .gray-bg {
   border-radius: 5px;
   width: 100%;
@@ -30,6 +38,10 @@
   cursor: pointer;
 }
 
-.orange-text {
-  color: #ffb400;
+.gray-bg:hover .orange-text {
+  color: white;
+}
+
+.gray-bg:hover .white-text {
+  color:#ffb400;
 }
