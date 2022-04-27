@@ -1,1 +1,35 @@
+.profile-pics-container {
+  height: 95vh;
+  margin-top: 27px;
+  background-image: url('./img/victor.jpg');
+  background-size: cover;
+  background-position: center center;
+  border-radius: 5px;
+}
 
+.profile-container {
+  margin-top: 27px;
+  height: 95vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  place-items: center;
+}
+
+.gray-bg {
+  border-radius: 5px;
+  width: 100%;
+  height: 45vh;
+  background: #3b3939;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.orange-text {
+  color: #ffb400;
+}
