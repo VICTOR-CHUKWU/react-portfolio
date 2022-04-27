@@ -1,10 +1,15 @@
-.profile-pics-container {
+.profile-pics-container, .profile-pics-container2 {
   height: 95vh;
   margin-top: 27px;
-  background-image: url('./img/victor.jpg');
+  background-image: url("./img/victor.jpg");
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
+}
+
+.profile-pics-container2 {
+  height: 600px;
+  margin-bottom: 1rem;
 }
 
 .profile-container {
@@ -20,11 +25,16 @@
   place-items: center;
 }
 
-.orange-text, .orange-icon, .rating-icon {
+.orange-text,
+.orange-icon,
+.rating-icon {
   color: #ffb400;
 }
 
 .white-text {
+  color: white;
+}
+.about-details-footer-text {
   color: white;
 }
 
@@ -33,7 +43,13 @@
   font-weight: 700;
 }
 
-.orange-icon, .regular-icon {
+.bold-h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.orange-icon,
+.regular-icon {
   font-size: 2rem;
 }
 
@@ -56,6 +72,7 @@
   display: flex;
   align-items: center;
 }
+
 /* for button */
 
 .close-button {
@@ -67,7 +84,8 @@
   cursor: pointer;
 }
 
-.btn-resume, .btn-blog {
+.btn-resume,
+.btn-blog {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -108,7 +126,7 @@
 }
 
 .gray-bg:hover .white-text {
-  color:#ffb400;
+  color: #ffb400;
   /* transform: translate3d(0, -105%, 0) */
 }
 
@@ -128,7 +146,9 @@
 
 /* about inner detail */
 
-.detail-about, .detail-touch, .detail-portfolio {
+.detail-about,
+.detail-touch,
+.detail-portfolio {
   position: absolute;
   top: 0;
   left: 50%;
@@ -146,8 +166,6 @@
 .show-detail {
   display: block;
 }
-
-
 
 .inner {
   position: relative;
@@ -247,7 +265,6 @@
 
 .facebook {
   color: #3b5998;
-  
 }
 
 .twitter {
@@ -272,6 +289,7 @@
   width: 100%;
   margin: 3rem 0;
 }
+
 .input-element {
   border: none;
   outline: none;
@@ -287,18 +305,135 @@
 /* portfolio starts here  */
 
 .grid-portfolio {
-  margin: 0.7rem ;
+  margin: 0.7rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.7rem;
 }
 
 .portfolio-item {
+  position: relative;
   border-radius: 5px;
   width: 100%;
   height: 270px;
+}
+
+.portfolio-item-detail {
+  background: rgba(189, 66, 86, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  transition: all 1s ease-in-out;
+}
+
+.portfolio-item:hover .portfolio-item-detail {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+}
+
+@media only screen and (max-width: 991px) {
+  .bold-h1 {
+    font-size: 3rem;
+  }
+
+  .bold-h2 {
+    font-size: 2.7rem;
+  }
+
+  .grid-portfolio {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .personal-info {
+    max-width: 95%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .profile-container {
+    height: 100%;
+  }
+
+  detail-about,
+  .detail-touch,
+  .detail-portfolio {
+    height: 100%;
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 1rem;
+  }
+
+  .gray-bg {
+    height: 300px;
+  }
+
+  .bold-h1 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+
+  .bold-h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+
+  .close-button {
+    font-size: 2rem;
+    right: 0.4rem;
+    top: 0;
+  }
+
+  .grid-portfolio {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-form-container {
+    margin-top: 0;
+  }
+
+  .contact-info-main {
+    height: 50vh;
+  }
+
+  .input-element {
+    width: 100%;
+  }
+
+  .qualifications-sidebar {
+    min-height: 300px;
+  }
+
+  .footer-icon {
+    font-size: 2rem;
+  }
+
+  .about-details-footer-text {
+   font-size: 1rem;
+  }
+
+  .button-div {
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+}
+
+.btn-resume {
+  margin-right: 0;
+}
+
+.btn-blog {
+  width: 250px;
+  margin-top: 0.5rem;
+}
+  
 }

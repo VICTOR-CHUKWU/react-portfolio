@@ -28,6 +28,7 @@ const AboutMeDetail = (props) => {
           <FaAddressCard className="orange-icon" />
           <span className="outer-line"></span>
         </div>
+        <div className='d-block d-lg-none profile-pics-container2'></div>
         <section className="personal-info mx-3">
           <div className="row mx-0">
             <h4 className="flex-align-center mb-3">
@@ -39,14 +40,14 @@ const AboutMeDetail = (props) => {
               web development and conceptualizing and delivering effective and
               efficient quality solutions.
             </p>
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <h6>First Name: Victor</h6>
               <h6>Last Name: Chukwu</h6>
               <h6>Date of birth: 18 feb</h6>
               <h6>Nationality: Nigerian</h6>
               <h6>Freelance: Available</h6>
             </div>
-            <div className="col-6">
+            <div className="col-12 col-md-6">
               <h6>Phone: +234 7032880693</h6>
               <h6>Address: Ibadan, Nigeria</h6>
               <h6>Email: chifunwatu@gmail.com</h6>
@@ -66,7 +67,7 @@ const AboutMeDetail = (props) => {
         <div className="hr"></div>
         <section className="qualifications">
           <div className="row mx-0">
-            <div className="col-4 text-center">
+            <div className="col-12 col-md-5 col-lg-4 text-center">
               <div className="qualifications-sidebar">
                 <div
                   class="nav flex-column nav-pills me-3"
@@ -113,7 +114,7 @@ const AboutMeDetail = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-8">
+            <div className="col-12 col-md-7 col-lg-8">
               <div className="qualification-main">
                 <div class="tab-content" id="v-pills-tabContent">
                   <div
@@ -321,21 +322,21 @@ const AboutMeDetail = (props) => {
                 <FaBriefcase className="footer-icon" />
               </h4>
               <h4 className="orange-text bold-h1">1+</h4>
-              <h5 className="white-text">YEARS OF EXPERIENCE</h5>
+              <h5 className="about-details-footer-text">YEARS OF EXPERIENCE</h5>
             </div>
             <div className="col-4 text-center">
               <h4>
                 <FaHandshake className="footer-icon" />
               </h4>
               <h4 className="orange-text bold-h1">89+</h4>
-              <h5 className="white-text">DONE PROJECTS</h5>
+              <h5 className="about-details-footer-text">DONE PROJECTS</h5>
             </div>
             <div className="col-4 text-center">
               <h4>
                 <FaHeart className="footer-icon" />
               </h4>
               <h4 className="orange-text bold-h1">77+</h4>
-              <h5 className="white-text">HAPPY CUSTOMERS</h5>
+              <h5 className="about-details-footer-text">HAPPY CUSTOMERS</h5>
             </div>
           </div>
         </div>
