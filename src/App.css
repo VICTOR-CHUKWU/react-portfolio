@@ -128,13 +128,13 @@
 
 /* about inner detail */
 
-.detail-about, .detail-touch {
+.detail-about, .detail-touch, .detail-portfolio {
   position: absolute;
   top: 0;
   left: 50%;
   right: 0;
   bottom: 0;
-  width: 98%;
+  width: 99%;
   height: 95vh;
   transform: translate(-50%);
   display: none;
@@ -280,4 +280,25 @@
   width: 80%;
   color: white;
   margin-left: 0.5rem;
+}
+
+/* get in touch details ends here  */
+
+/* portfolio starts here  */
+
+.grid-portfolio {
+  margin: 0.7rem ;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.7rem;
+}
+
+.portfolio-item {
+  border-radius: 5px;
+  width: 100%;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
