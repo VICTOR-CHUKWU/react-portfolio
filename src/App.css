@@ -417,13 +417,11 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  /* .contact-form-container {
-    margin-top: 0;
-  } */
-
   .contact-info-main, .contact-form-container {
     height: 50vh;
+    display: block;
   }
+
 
   .input-element {
     width: 100%;
@@ -449,10 +447,29 @@
 
   .btn-resume {
     margin-right: 0;
+    width: 200px;
   }
 
   .btn-blog {
-    width: 250px;
+    width: 200px;
     margin-top: 0.5rem;
   }
+
+  .link-buttons {
+    width: 250px;
+    height: 70px;
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 392px) {
+  
+  .contact-form-container {
+    margin-top: 5rem;
+  }
+
+  .btn-resume {
+    margin-right: 0.1rem;
+    width: 200px;
+}
 }
