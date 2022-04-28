@@ -31,7 +31,7 @@ const GetInTouchDetails = (props) => {
         </div>
         <section className="personal-info  mx-3">
           <div className="row mx-0 ">
-            <div className="col-12 col-md-6 col-lg-4">
+            <div className="col-12 col-md-6 col-lg-5">
               <div className="contact-info-main">
                 <div className="contact-info">
                   <div className="contact-item mx-2 my-2">
@@ -86,8 +86,8 @@ const GetInTouchDetails = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-8">
-              <div className="mx-4 contact-form-container">
+            <div className="col-12 col-md-6 col-lg-7">
+              <div className="mx-2 contact-form-container">
                 <h6 className="white-text">FEEL FREE TO DROP ME A LINE</h6>
                 <p className="white-text">
                   If you have any suggestion, project or even you want to say
