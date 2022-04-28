@@ -70,7 +70,7 @@ const AboutMeDetail = (props) => {
             <div className="col-12 col-md-5 col-lg-4 text-center">
               <div className="qualifications-sidebar">
                 <div
-                  class="nav flex-column nav-pills me-3"
+                  className="nav flex-column nav-pills me-3"
                   id="v-pills-tab"
                   role="tablist"
                   aria-orientation="vertical"
@@ -116,7 +116,7 @@ const AboutMeDetail = (props) => {
             </div>
             <div className="col-12 col-md-7 col-lg-8">
               <div className="qualification-main">
-                <div class="tab-content" id="v-pills-tabContent">
+                <div className="tab-content" id="v-pills-tabContent">
                   <div
                     className="tab-pane fade show active"
                     id="v-pills-home"
