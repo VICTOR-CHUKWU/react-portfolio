@@ -55,7 +55,7 @@ const AboutMeDetail = (props) => {
               <h6>zoom: pablo okenwa</h6>
             </div>
             <div className="button-div">
-              <a href="#" className="btn btn-resume">
+              <a href="https://drive.google.com/file/d/1KnKViqm2q75yXOhy6u9IN6O5Ivnn5vKe/view?usp=sharing" target='_blank' className="btn btn-resume">
                 Download Resume <FaFilePdf className="mx-2" />
               </a>
               <a href="#" className="btn btn-blog">

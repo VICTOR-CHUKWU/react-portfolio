@@ -150,21 +150,40 @@
 .detail-touch,
 .detail-portfolio {
   position: absolute;
-  top: 0;
   left: 50%;
-  right: 0;
   bottom: 0;
   width: 99%;
   height: 95vh;
   transform: translate(-50%);
-  display: none;
+  /* display: none; */
+  visibility: hidden;
   background: #3b3939;
   z-index: 10;
   overflow-y: auto;
+  transition: all 2s ease-in-out;
+}
+
+.detail-about {
+  top: -120%;
+  right: -100%;
+}
+
+.detail-touch {
+  top: -120%;
+  right: -100%;
+}
+
+.detail-portfolio {
+  top: -120%;
+  right: -100%;
 }
 
 .show-detail {
-  display: block;
+  /* display: block; */
+  /* transform: translate(0); */
+  visibility: visible;
+  top: 0;
+  right: 0;
 }
 
 .inner {

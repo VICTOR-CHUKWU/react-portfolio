@@ -69,15 +69,15 @@ const GetInTouchDetails = (props) => {
                         {" "}
                         <FaFacebook className="regular-icon facebook" />
                       </a>
-                      <a href="">
+                      <a href="https://twitter.com/okenwapablo" target='_blank'>
                         {" "}
                         <FaTwitter className="regular-icon twitter mx-2" />
                       </a>
-                      <a href="">
+                      <a href="https://github.com/VICTOR-CHUKWU" target='_blank'>
                         {" "}
                         <FaGithub className="regular-icon mx-2" />
                       </a>
-                      <a href="">
+                      <a href="https://www.linkedin.com/in/victor-nnabuike-chukwu/" target='_blank'>
                         {" "}
                         <FaLinkedin className="regular-icon linkedin" />
                       </a>
