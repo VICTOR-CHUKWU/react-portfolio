@@ -33,9 +33,9 @@ const PortfolioDetails = (props) => {
                           key={id}
                         >
                          <div className="portfolio-item-detail">
-                         <h4>{projectName}</h4>
-                         <p className="orange-text">{description}</p>
-                         <p className="d-flex align-items-center">Technologies: {
+                         <h4 className="text-capitalize">{projectName}</h4>
+                         <p className="orange-text text-center">{description}</p>
+                         <p className=""> {
                            technologies.map((item) => 
                            {
                               return(

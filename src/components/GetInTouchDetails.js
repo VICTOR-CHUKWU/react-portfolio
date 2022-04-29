@@ -115,7 +115,7 @@ const GetInTouchDetails = (props) => {
                     <FaComments />
                     <input
                       type="text"
-                      placeholder="tell me your mind"
+                      placeholder="message"
                       className="input-element"
                     />
                   </div>
