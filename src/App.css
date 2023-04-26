@@ -2,7 +2,7 @@
 .profile-pics-container2 {
   height: 95vh;
   margin-top: 27px;
-  background-image: url("./img/vee.webp");
+  background-image: url("./img/vic.webp");
   background-size: cover;
   background-position: center center;
   border-radius: 5px;
@@ -40,6 +40,7 @@
 .white-text {
   color: white;
 }
+
 .about-details-footer-text {
   color: white;
 }
@@ -273,7 +274,8 @@
 /* about inner detail ends */
 
 /* get in touch details starts here */
-.contact-info-main, .contact-form-container {
+.contact-info-main,
+.contact-form-container {
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -425,7 +427,8 @@
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .contact-info-main, .contact-form-container {
+  .contact-info-main,
+  .contact-form-container {
     height: 50vh;
     display: block;
   }
@@ -467,11 +470,11 @@
     width: 250px;
     height: 70px;
     font-size: 1rem;
-}
+  }
 }
 
 @media only screen and (max-width: 392px) {
-  
+
   .contact-form-container {
     margin-top: 5rem;
   }
@@ -479,8 +482,9 @@
   .btn-resume {
     margin-right: 0.1rem;
     width: 200px;
-}
-.about-details-footer-text {
-  font-size: 0.8rem;
-}
+  }
+
+  .about-details-footer-text {
+    font-size: 0.8rem;
+  }
 }

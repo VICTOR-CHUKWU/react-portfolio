@@ -28,7 +28,7 @@ const AboutMeDetail = (props) => {
           <FaAddressCard className="orange-icon" />
           <span className="outer-line"></span>
         </div>
-        <div className='d-block d-lg-none profile-pics-container2'></div>
+        <div className="d-block d-lg-none profile-pics-container2"></div>
         <section className="personal-info mx-3">
           <div className="row mx-0">
             <h4 className="flex-align-center mb-3">
@@ -36,12 +36,12 @@ const AboutMeDetail = (props) => {
               <span className="mx-3">PERSONAL INFO</span>
             </h4>
             <p>
-              I am a Frontend developer with over 1 Year of experience in mobile
+              I am a Frontend developer with 3+ years of experience in mobile
               web development and conceptualizing and delivering effective and
               efficient quality solutions.
             </p>
             <div className="col-12 col-md-6">
-              <h6>First Name: Victor</h6>
+              <h6>First Name: Okenwa</h6>
               <h6>Last Name: Chukwu</h6>
               <h6>Date of birth: 18 feb</h6>
               <h6>Nationality: Nigerian</h6>
@@ -49,13 +49,17 @@ const AboutMeDetail = (props) => {
             </div>
             <div className="col-12 col-md-6">
               <h6>Phone: +234 7032880693</h6>
-              <h6>Address: Ibadan, Nigeria</h6>
+              <h6>Address: Lagos, Nigeria</h6>
               <h6>Email: chifunwatu@gmail.com</h6>
               <h6>Spoken Langages: English - Igbo</h6>
-              <h6>zoom: pablo okenwa</h6>
+              <h6>Github: victor-chukwu</h6>
             </div>
             <div className="button-div">
-              <a href="https://drive.google.com/file/d/1KnKViqm2q75yXOhy6u9IN6O5Ivnn5vKe/view?usp=sharing" target='_blank' className="btn btn-resume">
+              <a
+                href="https://docs.google.com/document/d/1UexNL0zbTM9MOmT7A73EvXqZxY-Z_PmzHyrJmKTPkiw/edit?usp=sharing"
+                target="_blank"
+                className="btn btn-resume"
+              >
                 Download Resume <FaFilePdf className="mx-2" />
               </a>
               <a href="#" className="btn btn-blog">
@@ -130,11 +134,32 @@ const AboutMeDetail = (props) => {
                       </h4>
                     </div>
                     <article className="my-2 mx-2">
+                      <h5>Front end Developer, DryvAfrica</h5>
+                      <h6>
+                        {" "}
+                        <FaCalendar />
+                        <span className="mx-2">April, 2022 - date</span>
+                      </h6>
+                      <ul>
+                        <li>
+                          Design company web app using Next js and typescript to
+                          give over 100, 000 users the ease of booking buses at
+                          their convenience
+                        </li>
+                        <li>
+                          Perform user experience quality assurance testing to
+                          identify and remedy shortcomings with tools like Jest.
+                        </li>
+                        {/* <li>Carries out unit testing with Jest.</li> */}
+                      </ul>
+                    </article>
+                    <div className="small-hr"></div>
+                    <article className="my-2 mx-2">
                       <h5>Front end Developer, CribMD</h5>
                       <h6>
                         {" "}
                         <FaCalendar />
-                        <span className="mx-2">Aug, 2021 - date</span>
+                        <span className="mx-2">Dec, 2020 - April, 2022</span>
                       </h6>
                       <ul>
                         <li>
@@ -321,7 +346,7 @@ const AboutMeDetail = (props) => {
               <h4>
                 <FaBriefcase className="footer-icon" />
               </h4>
-              <h4 className="orange-text bold-h1">1+</h4>
+              <h4 className="orange-text bold-h1">3+</h4>
               <h5 className="about-details-footer-text">YEARS OF EXPERIENCE</h5>
             </div>
             <div className="col-4 text-center">
