@@ -36,7 +36,7 @@ const AboutMeDetail = (props) => {
               <span className="mx-3">PERSONAL INFO</span>
             </h4>
             <p>
-              I am a Frontend developer with 3+ years of experience in mobile
+              I am a Full-stack developer with 4+ years of experience in mobile
               web development and conceptualizing and delivering effective and
               efficient quality solutions.
             </p>
@@ -56,9 +56,10 @@ const AboutMeDetail = (props) => {
             </div>
             <div className="button-div">
               <a
-                href="https://docs.google.com/document/d/1UexNL0zbTM9MOmT7A73EvXqZxY-Z_PmzHyrJmKTPkiw/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1SdwJARg58Nj5QlQAOR2ENSfgEDbXLhQgF38iaY9UhjE/edit?usp=sharing"
                 target="_blank"
                 className="btn btn-resume"
+                rel="noreferrer"
               >
                 Download Resume <FaFilePdf className="mx-2" />
               </a>
@@ -134,21 +135,46 @@ const AboutMeDetail = (props) => {
                       </h4>
                     </div>
                     <article className="my-2 mx-2">
+                      <h5>Full Stack Developer, Twen</h5>
+                      <h6>
+                        {" "}
+                        <FaCalendar />
+                        <span className="mx-2">Aug, 2023 - Date</span>
+                      </h6>
+                      <ul>
+                        <li>
+                          I Optimize queries by taking statistics from a MYSQL
+                          having over 25 million records, thereby increasing
+                          application performance.
+                        </li>
+                        <li>
+                          Build a full-stack application of a finance management
+                          system for ticketing and account monitoring, exposing
+                          REST APIs for external consumption
+                        </li>
+                        <li>
+                          Create and maintain Responsive web pages using
+                          Angular, SCSS and REST API using node js, express and
+                          MYSQL
+                        </li>
+                      </ul>
+                    </article>
+                    <article className="my-2 mx-2">
                       <h5>Front end Developer, DryvAfrica</h5>
                       <h6>
                         {" "}
                         <FaCalendar />
-                        <span className="mx-2">April, 2022 - date</span>
+                        <span className="mx-2">May, 2022 - July 2023</span>
                       </h6>
                       <ul>
                         <li>
-                          Design company web app using Next js and typescript to
-                          give over 100, 000 users the ease of booking buses at
-                          their convenience
+                          Designed company web app using Next js and typescript
+                          to give over 100, 000 users the ease of booking buses
+                          at their convenience
                         </li>
                         <li>
-                          Perform user experience quality assurance testing to
-                          identify and remedy shortcomings with tools like Jest.
+                          Researched emerging web technologies and trends for
+                          possible incorporation into sites.
                         </li>
                         {/* <li>Carries out unit testing with Jest.</li> */}
                       </ul>
@@ -163,11 +189,19 @@ const AboutMeDetail = (props) => {
                       </h6>
                       <ul>
                         <li>
-                          Developing an Angular web app for Doctor online
-                          Consultation and house visit.
+                          Carried out SEO optimisation to improve the company's
+                          online presence and marketability to over 1,000 daily
+                          visitors.
                         </li>
-                        <li>Built the company website with React Js.</li>
-                        <li>Carries out unit testing with Jest.</li>
+                        <li>
+                          Designed and implemented a Video call app integrating
+                          with Agora to enhance telemedicine services for more
+                          than 50,000 consultations per month
+                        </li>
+                        <li>
+                          Transformed native applications into mobile-friendly
+                          products.
+                        </li>
                       </ul>
                     </article>
                     <div className="small-hr"></div>
@@ -176,7 +210,7 @@ const AboutMeDetail = (props) => {
                       <h6>
                         {" "}
                         <FaCalendar />{" "}
-                        <span className="mx-2">Jan, 2022 - date</span>
+                        <span className="mx-2">Jan, 2022 - July 2023</span>
                       </h6>
                       <ul>
                         <li>Providing advice and tips to Junior Developers.</li>
@@ -216,7 +250,7 @@ const AboutMeDetail = (props) => {
                         <FaCalendar />{" "}
                         <span className="mx-2">Oct, 2011 - July, 2015</span>
                       </h6>
-                      Bsc in chemistry
+                      Bsc
                     </article>
                   </div>
                   <div
@@ -288,8 +322,8 @@ const AboutMeDetail = (props) => {
                           <FaStar className="rating-icon" />
                           <FaStar className="rating-icon" />
                           <FaStar className="rating-icon" />
-                          <FaRegStar className="rating-icon" />
-                          <FaRegStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
                         </h5>
                       </article>
                       <article className="col-6 py-2">
@@ -300,6 +334,36 @@ const AboutMeDetail = (props) => {
                           <FaStar className="rating-icon" />
                           <FaStar className="rating-icon" />
                           <FaStar className="rating-icon" />
+                        </h5>
+                      </article>
+                      <article className="col-6 py-2">
+                        <h5>Node JS</h5>
+                        <h5>
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                        </h5>
+                      </article>
+                      <article className="col-6 py-2">
+                        <h5>Express</h5>
+                        <h5>
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                        </h5>
+                      </article>
+                      <article className="col-6 py-2">
+                        <h5>NEST JS</h5>
+                        <h5>
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaRegStar className="rating-icon" />
                         </h5>
                       </article>
                       <article className="col-6 py-2">
@@ -332,6 +396,16 @@ const AboutMeDetail = (props) => {
                           <FaRegStar className="rating-icon" />
                         </h5>
                       </article>
+                      <article className="col-6 py-2">
+                        <h5>MYSQL</h5>
+                        <h5>
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaStar className="rating-icon" />
+                          <FaRegStar className="rating-icon" />
+                        </h5>
+                      </article>
                     </div>
                   </div>
                 </div>
@@ -346,7 +420,7 @@ const AboutMeDetail = (props) => {
               <h4>
                 <FaBriefcase className="footer-icon" />
               </h4>
-              <h4 className="orange-text bold-h1">3+</h4>
+              <h4 className="orange-text bold-h1">4+</h4>
               <h5 className="about-details-footer-text">YEARS OF EXPERIENCE</h5>
             </div>
             <div className="col-4 text-center">

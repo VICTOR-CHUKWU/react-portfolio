@@ -19,35 +19,46 @@ const PortfolioDetails = (props) => {
           <span className="outer-line"></span>
         </div>
         <div className="grid-portfolio">
-            {
-                portfolioData.map((item) => {
-                    const { id, picture, projectName, liveLink, technologies, description } = item;
-                    return (
-                        <a href={liveLink} target='_blank' className="portfolio-item"
-                        style={{
-                            backgroundImage: `url(${picture})`,
-                            backgroundPosition: 'center',
-                            backgroundSize: 'cover',
-                            backgroundRepeat: 'no-repeat',
-                          }}
-                          key={id}
-                        >
-                         <div className="portfolio-item-detail">
-                         <h4 className="text-capitalize">{projectName}</h4>
-                         <p className="orange-text text-center">{description}</p>
-                         <p className=""> {
-                           technologies.map((item) => 
-                           {
-                              return(
-                                <span key={item} className='white-text mx-2'>{item}</span>
-                              )
-                           })
-                         }</p>
-                         </div>
-                        </a>
-                    )
-                })
-            }
+          {portfolioData.map((item) => {
+            const {
+              id,
+              picture,
+              projectName,
+              liveLink,
+              technologies,
+              description,
+            } = item;
+            return (
+              <a
+                href={liveLink}
+                target="_blank"
+                className="portfolio-item"
+                style={{
+                  backgroundImage: `url(${picture})`,
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                }}
+                key={id}
+                rel="noreferrer"
+              >
+                <div className="portfolio-item-detail">
+                  <h4 className="text-capitalize">{projectName}</h4>
+                  <p className="orange-text text-center">{description}</p>
+                  <p className="technologies">
+                    {" "}
+                    {technologies.map((item) => {
+                      return (
+                        <span key={item} className="white-text mx-2">
+                          {item}
+                        </span>
+                      );
+                    })}
+                  </p>
+                </div>
+              </a>
+            );
+          })}
         </div>
       </div>
     </div>

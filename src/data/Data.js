@@ -28,15 +28,37 @@ export const portfolioData = [
   },
   {
     id: 3,
-    picture:
-      "https://images.unsplash.com/photo-1541185934-01b600ea069c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
-    projectName: "Space Travelers Hub",
-    technologies: ["react", "scss"],
-    description: "an app for space travelers",
-    liveLink: "https://space-traveler-hub.netlify.app/",
+    picture: "/img/education.png",
+    projectName: "Global Education Site",
+    technologies: ["Next Js", "scss"],
+    description: "an app for students to find and study in their dream school",
+    liveLink: "https://ghteducation.com/",
   },
   {
     id: 4,
+    picture: "/img/nesi.png",
+    projectName: "Nesi App",
+    technologies: [
+      "bootstrap",
+      "Next Js",
+      "scss",
+      "Node Js",
+      "MongoDB",
+      "Express",
+    ],
+    description: "an app that helps Government to monitor meter installations",
+    liveLink: "http://20.86.30.63:3000/",
+  },
+  {
+    id: 5,
+    picture: "/img/mining.png",
+    projectName: "Mining App",
+    technologies: ["NEXT JS", "SCSS"],
+    description: "A website that help minners navigate their jobs",
+    liveLink: "https://okenwa-mining.onrender.com/",
+  },
+  {
+    id: 6,
     picture:
       "https://blog.hootsuite.com/wp-content/uploads/2021/06/Screen-Shot-2021-06-19-at-2.43.18-PM.png",
     projectName: "YouTube Clone",
@@ -45,16 +67,7 @@ export const portfolioData = [
     liveLink: "https://victor-youtube.netlify.app/",
   },
   {
-    id: 5,
-    picture:
-      "https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1590&q=80",
-    projectName: "Book store",
-    technologies: ["bootstrap", "react", "scss"],
-    description: "an app to save and delete books",
-    liveLink: "https://vic-bookstore.netlify.app/",
-  },
-  {
-    id: 6,
+    id: 7,
     picture:
       "https://images.unsplash.com/photo-1509824227185-9c5a01ceba0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=715&q=80",
     projectName: "Crowd Funding",
@@ -63,7 +76,7 @@ export const portfolioData = [
     liveLink: "https://victor-chukwu.github.io/crowdFundingLandingPage",
   },
   {
-    id: 7,
+    id: 8,
     picture:
       "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     projectName: "Ecommerce Website",
@@ -72,7 +85,7 @@ export const portfolioData = [
     liveLink: "https://victor-ecommerce.netlify.app",
   },
   {
-    id: 8,
+    id: 9,
     picture:
       "https://images.unsplash.com/photo-1630514969818-94aefc42ec47?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     projectName: "GitHub User Page",
