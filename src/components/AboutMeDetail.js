@@ -56,7 +56,7 @@ const AboutMeDetail = (props) => {
             </div>
             <div className="button-div">
               <a
-                href="https://docs.google.com/document/d/1SdwJARg58Nj5QlQAOR2ENSfgEDbXLhQgF38iaY9UhjE/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1uPNKPokq3vuxXfG8-nAcjZwBWrqD7IyEBoSmNamDFTQ/edit?usp=sharing"
                 target="_blank"
                 className="btn btn-resume"
                 rel="noreferrer"
