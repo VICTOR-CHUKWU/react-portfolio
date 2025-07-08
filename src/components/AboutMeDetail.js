@@ -135,11 +135,34 @@ const AboutMeDetail = (props) => {
                       </h4>
                     </div>
                     <article className="my-2 mx-2">
+                      <h5>Led Backend Developer, Vascon</h5>
+                      <h6>
+                        {" "}
+                        <FaCalendar />
+                        <span className="mx-2">Aug, 2024 - Date</span>
+                      </h6>
+                      <ul>
+                        <li>
+                          Optimised data storage and performance by implementing Redis cache, resulting in a 45% reduction in database queries and a 30% improvement in API response time
+
+                        </li>
+                        <li>
+                          Architected and implemented a scalable microservices architecture using NestJS, enabling modular deployment, efficient code reuse, and better separation of concerns across services communicating via REST and asynchronous queues.
+                        </li>
+                        <li>
+                          Create and maintain Responsive web pages using
+                          Angular, SCSS and REST API using node js, express and
+                          MYSQL
+                        </li>
+                      </ul>
+                    </article>
+                    <div className="small-hr"></div>
+                    <article className="my-2 mx-2">
                       <h5>Full Stack Developer, Twen</h5>
                       <h6>
                         {" "}
                         <FaCalendar />
-                        <span className="mx-2">Aug, 2023 - Date</span>
+                        <span className="mx-2">Aug, 2023 - July 2024</span>
                       </h6>
                       <ul>
                         <li>
@@ -159,12 +182,13 @@ const AboutMeDetail = (props) => {
                         </li>
                       </ul>
                     </article>
+                    <div className="small-hr"></div>
                     <article className="my-2 mx-2">
                       <h5>Front end Developer, DryvAfrica</h5>
                       <h6>
                         {" "}
                         <FaCalendar />
-                        <span className="mx-2">May, 2022 - July 2023</span>
+                        <span className="mx-2">Aug, 2022 - July 2023</span>
                       </h6>
                       <ul>
                         <li>
@@ -185,7 +209,7 @@ const AboutMeDetail = (props) => {
                       <h6>
                         {" "}
                         <FaCalendar />
-                        <span className="mx-2">Dec, 2020 - April, 2022</span>
+                        <span className="mx-2">Sept, 2019 - Dec, 2021</span>
                       </h6>
                       <ul>
                         <li>
@@ -210,7 +234,7 @@ const AboutMeDetail = (props) => {
                       <h6>
                         {" "}
                         <FaCalendar />{" "}
-                        <span className="mx-2">Jan, 2022 - July 2023</span>
+                        <span className="mx-2">Jan, 2022 - July 2022</span>
                       </h6>
                       <ul>
                         <li>Providing advice and tips to Junior Developers.</li>
@@ -420,7 +444,7 @@ const AboutMeDetail = (props) => {
               <h4>
                 <FaBriefcase className="footer-icon" />
               </h4>
-              <h4 className="orange-text bold-h1">4+</h4>
+              <h4 className="orange-text bold-h1">5+</h4>
               <h5 className="about-details-footer-text">YEARS OF EXPERIENCE</h5>
             </div>
             <div className="col-4 text-center">
