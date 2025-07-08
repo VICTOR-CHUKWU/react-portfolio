@@ -36,7 +36,7 @@ const AboutMeDetail = (props) => {
               <span className="mx-3">PERSONAL INFO</span>
             </h4>
             <p>
-              I am a Full-stack developer with 4+ years of experience in mobile
+              I am a Full-stack developer with 5+ years of experience in mobile
               web development and conceptualizing and delivering effective and
               efficient quality solutions.
             </p>
