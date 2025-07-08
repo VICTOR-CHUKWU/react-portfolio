@@ -10,21 +10,19 @@ export const portfolioData = [
   },
   {
     id: 1,
-    picture:
-      "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-    projectName: "Bus Booking App",
-    technologies: ["graphql", "React", "scss", "tailwind"],
-    description: "an app that can be used to book buses",
-    liveLink: "https://dev.d3enfvcv5egb2v.amplifyapp.com/",
+    picture: "/img/insightIq.png",
+    projectName: "AI Customer Review App",
+    technologies: ["Nest JS", "React", "scss", "tailwind", "Postgres"],
+    description: "an app uses AI to generate customer reviews for companies",
+    liveLink: "https://insightiqhub.com/",
   },
   {
     id: 2,
-    picture:
-      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1596&q=80",
-    projectName: "Real Estate",
-    technologies: ["bootstrap", "Next JS", "scss"],
-    description: "an app to rent houses and buy agricultural produce",
-    liveLink: "https://honeygrapes.com/",
+    picture: "/img/jobnest.png",
+    projectName: "Jobnest",
+    technologies: ["Next JS", "Mongo Db", "scss"],
+    description: "an AI interview app, help company recruit faster and better",
+    liveLink: "https://jobnest.io/",
   },
   {
     id: 3,
@@ -77,12 +75,11 @@ export const portfolioData = [
   },
   {
     id: 8,
-    picture:
-      "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    projectName: "Ecommerce Website",
-    technologies: ["bootstrap", "react", "scss"],
-    description: "a website for buying and selling",
-    liveLink: "https://victor-ecommerce.netlify.app",
+    picture: "/img/axel.png",
+    projectName: "AxelNetworks Website",
+    technologies: ["tailwind", "Next JS", "scss"],
+    description: "a website that helps you take your  trading experience to the next level",
+    liveLink: "https://www.axelnetworks.co/",
   },
   {
     id: 9,

@@ -328,6 +328,11 @@
   margin-left: 0.5rem;
 }
 
+.input-element:focus {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
 /* get in touch details ends here  */
 
 /* portfolio starts here  */

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   FaEnvelopeOpen,
   FaPhoneAlt,
@@ -14,6 +15,29 @@ import { FiSend } from 'react-icons/fi'
 
 const GetInTouchDetails = (props) => {
   const { touch, setInTouch } = props;
+  const [loading, setLoading] = useState(false)
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true)
+    const form = new FormData(e.target);
+
+    const res = await fetch('https://formspree.io/f/mayaljpn', {
+      method: 'POST',
+      body: form,
+      headers: {
+        Accept: 'application/json',
+      },
+    });
+
+    if (res.ok) {
+      alert('Message sent!');
+      e.target.reset();
+    } else {
+      alert('Something went wrong. Please try again.');
+    }
+    setLoading(false)
+  };
   return (
     <div className={`detail-touch ${touch ? "show-detail" : ""}`}>
       <div className="inner">
@@ -94,11 +118,14 @@ const GetInTouchDetails = (props) => {
                   Hello.. Please fill out the form below and I will reply you
                   shortly.
                 </p>
-                <form className="form">
+                <form
+                  className="form"
+                  onSubmit={handleSubmit}>
                   <div className="form-element">
                     <FaUserAlt />
                     <input
                       type="text"
+                      name='name'
                       placeholder="your name"
                       className="input-element"
                     />
@@ -107,6 +134,7 @@ const GetInTouchDetails = (props) => {
                     <FaEnvelope />
                     <input
                       type="email"
+                      name='email'
                       placeholder="you@gmail.com"
                       className="input-element"
                     />
@@ -115,12 +143,21 @@ const GetInTouchDetails = (props) => {
                     <FaComments />
                     <input
                       type="text"
+                      name='message'
                       placeholder="message"
                       className="input-element"
                     />
                   </div>
                   <div>
-                      <button type="submit" className="btn btn-resume">SEND MESSAGE<FiSend className="mx-2"/></button>
+                    <button type="submit" className="btn btn-resume">
+                      {
+                        loading ? 'sending...' : (
+                          <>
+                            SEND MESSAGE <FiSend className="mx-2" />
+                          </>
+                        )
+                      }
+                    </button>
                   </div>
                 </form>
               </div>
